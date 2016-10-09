@@ -1,4 +1,81 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="/sjswaimai/Public/js/uni_armorwidget_wrapper.js"></script>
+    <meta charset="utf-8">
+    <title>石景山外卖</title>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/main_5d1e2f0.css"/>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/common_12dc87d.css"/>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/landing_dc1f971.css"/>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/shoplist_a774a9c.css"/>
+
+    <script type="text/javascript" src="/sjswaimai/Public/js/main_d338062.js"></script>
+    <script type="text/javascript" src="/sjswaimai/Public/js/lib_fcbc5e7.js"></script>
+    <script type="text/javascript" src="/sjswaimai/Public/js/landing_cb95d02.js"></script>
+    <script type="text/javascript" src="/sjswaimai/Public/js/shoplist_03c450c.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="ui-width header-wrap">
+            <figure>
+                <a href="/waimai" class="wm-logo">石景山外卖</a>
+            </figure>
+            <div id="nav-search-section" class="nav-search-section">
+                <div class="s-first">
+                <i class="addr-icon"></i>
+                <input type="text" placeholder="请输入送餐地址" class="s-con"/>
+                </div>
+                <div class="s-second s-shoplist">
+                <div class="s-citybar"></div>
+                <div class="s-input">
+                <input type="text" placeholder="请输入送餐地址" id="s-con" class="s-con"/>
+                <img src="/sjswaimai/Public/picture/loading_min_b0eaadb.gif" class="s-loading mod-search-hide" />
+                </div>
+                <div class="s-search-container1"></div>
+                </div>
+                <div id="muti-aois">
+                </div>
+            </div>
+            <div class="filter-search">
+                <input type="text" id="f-input" class="f-input placeholder-con" placeholder="搜索商户或商品" value="">
+                <a href="/waimai/shoplist/c63ab3051c9a6892" id="f-close-btn" title="重新搜索" class="f-close-btn hide">×</a>
+                <button id="f-search" class="f-search"></button>
+                <div class="f-search-list"></div>
+            </div>
+            <nav>
+                <ul class="nav">
+                <li class="nav-item nav-item-active" id="find">
+                <a href="<?php echo U('Index/index');?>" class="nav-item-link">外卖</a>
+                </li>
+                <li class="nav-item " id="order">
+                <a href="<?php echo U('User/address');?>" class="nav-item-link">我的订单</a>
+                </li>
+                <li class="nav-item " id="contact">
+                <a href="/waimai?qt=contact" class="nav-item-link">联系我们</a>
+                </li>
+                <li style="display:none;" class="nav-item " id="medicine">
+                <a href="/waimai?qt=medicine" class="nav-item-link">药品信息</a>
+                </li>
+                </ul>
+            </nav>
+            <div id="user_info" class="user-info-widget" style="1px solid blue;">
+                <div id="login_user_info" style="display:none;"></div>
+                <div id="logout_user_info">
+                    <ul class="logout_info">
+                        <li>
+                            <a id="login" href="javascript:void(0);" >&nbsp;登录</a>
+                        </li>
+                        <li>
+                            <a id="logout_user_register" href="https://passport.baidu.com/v2/?reg&amp;regType=1&amp;tpl=ma" target="_blank">注册</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript" src="/sjswaimai/Public/js/d72620c3622f409cbbaf5128c91f3772.js"></script>
+        </div>
+    </header>
+
+<!DOCTYPE html>
 <!-- saved from url=(0053)http://waimai.baidu.com/waimai?qt=orderlist&type=wait -->
 <html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -226,7 +303,7 @@
     Hunter.userConfig.push({ hid: 63163 });
 </script>
 <script type="text/javascript" src="/sjswaimai/Public/user/main_d338062.js"></script>
-<script type="text/javascript" src="/sjswaimai/Public/user/lib_fcbc5e7.js"></script>
+<!-- <script type="text/javascript" src="/sjswaimai/Public/user/lib_fcbc5e7.js"></script> -->
 <script type="text/javascript" src="/sjswaimai/Public/user/landing_cb95d02.js"></script>
 <script type="text/javascript" src="/sjswaimai/Public/user/menu_e669814.js"></script>
 <script type="text/javascript" src="/sjswaimai/Public/user/commonDialog_4f5d8bf.js"></script>

@@ -3,14 +3,16 @@
 <head>
     <script type="text/javascript" src="/sjswaimai/Public/js/uni_armorwidget_wrapper.js"></script>
     <meta charset="utf-8">
-
-    
-
     <title>石景山外卖</title>
     <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/main_5d1e2f0.css"/>
     <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/common_12dc87d.css"/>
     <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/landing_dc1f971.css"/>
     <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/shoplist_a774a9c.css"/>
+
+    <script type="text/javascript" src="/sjswaimai/Public/js/main_d338062.js"></script>
+    <script type="text/javascript" src="/sjswaimai/Public/js/lib_fcbc5e7.js"></script>
+    <script type="text/javascript" src="/sjswaimai/Public/js/landing_cb95d02.js"></script>
+    <script type="text/javascript" src="/sjswaimai/Public/js/shoplist_03c450c.js"></script>
 </head>
 <body>
     <header class="header">
@@ -72,6 +74,7 @@
             <script type="text/javascript" src="/sjswaimai/Public/js/d72620c3622f409cbbaf5128c91f3772.js"></script>
         </div>
     </header>
+
 
     <div class="tip-section">
         <div class="tip-image"></div>
@@ -463,10 +466,6 @@
     </footer>
     <div class="mask"></div>
 </body>
-<script type="text/javascript" src="/sjswaimai/Public/js/main_d338062.js"></script>
-<script type="text/javascript" src="/sjswaimai/Public/js/lib_fcbc5e7.js"></script>
-<script type="text/javascript" src="/sjswaimai/Public/js/landing_cb95d02.js"></script>
-<script type="text/javascript" src="/sjswaimai/Public/js/shoplist_03c450c.js"></script>
 <script type="text/javascript">
 !function(){ require('waimai:widget/landing/muti/muti.js').init();
 
@@ -526,44 +525,7 @@
 !function(){require("waimai:widget/common/footer/footer.js").init();
 }();
 !function(){        require("waimai:page/layout.js");
-    }();</script><!--[if IE 6]>
-<style type="text/css">
-.header .nav-item {
-    border-color:tomato;
-    filter:chroma(color=tomato);
-}
-.qbox_content .city-dialog .closebtn,
-.global-tips .close-btn,
-.wm-map .defaultTip .close-btn {
-    font-size: 16px;
-    text-decoration: none;
-}
-.qbox_content .city-dialog .closebtn:hover,
-.global-tips .close-btn:hover,
-.wm-map .defaultTip .close-btn:hover {
-    text-decoration: none;
-}
-</style>
-<![endif]-->
-<!--[if IE 6]>
-<style type="text/css">
-/*ie6 hover class*/
-.ie6_nav-item-active {
-    border-bottom: solid 1px #ef3510;
-    border-left: solid 1px #f02d06;
-    border-right: solid 1px #f02d06;
-    background-color: #ef3510;
-}
-</style>
-<script type="text/javascript">
-/*ie6 hover 效果*/
-var navList = $('.header .nav .nav-item');
-navList.on('mouseover', function(e) {
-    $(this).addClass('ie6_nav-item-active');
-});
-navList.on('mouseout', function(e) {
-    $(this).removeClass('ie6_nav-item-active');
-});
+    }();
+
 </script>
-<![endif]-->
 </html>
