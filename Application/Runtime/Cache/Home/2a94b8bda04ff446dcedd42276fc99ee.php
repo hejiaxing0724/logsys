@@ -1,19 +1,16 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" src="/waimaitp/Public/js/uni_armorwidget_wrapper.js"></script>
+    <script type="text/javascript" src="/sjswaimai/Public/js/uni_armorwidget_wrapper.js"></script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="keywords" content="百度外卖，百度地图外卖，百度外卖网，外卖订餐，网上订餐外卖，快餐外卖，外卖网，北京外卖，外卖；"/>
-    <meta name="description" content="百度地图外卖是由百度打造的一个专业外卖服务平台，覆盖众多优质外卖商家，提供方便快捷的网上外卖订餐服务。">
-    <link rel="icon" href="https://static.waimai.baidu.com/static/forpc/favicon.ico" mce_href="https://static.waimai.baidu.com/static/forpc/favicon.ico" type="image/x-icon">
+
+    
 
     <title>石景山外卖</title>
-    <link rel="stylesheet" type="text/css" href="/waimaitp/Public/css/main_5d1e2f0.css"/>
-    <link rel="stylesheet" type="text/css" href="/waimaitp/Public/css/common_12dc87d.css"/>
-    <link rel="stylesheet" type="text/css" href="/waimaitp/Public/css/landing_dc1f971.css"/>
-    <link rel="stylesheet" type="text/css" href="/waimaitp/Public/css/shoplist_a774a9c.css"/>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/main_5d1e2f0.css"/>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/common_12dc87d.css"/>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/landing_dc1f971.css"/>
+    <link rel="stylesheet" type="text/css" href="/sjswaimai/Public/css/shoplist_a774a9c.css"/>
 </head>
 <body>
     <header class="header">
@@ -30,7 +27,7 @@
                 <div class="s-citybar"></div>
                 <div class="s-input">
                 <input type="text" placeholder="请输入送餐地址" id="s-con" class="s-con"/>
-                <img src="/waimaitp/Public/picture/loading_min_b0eaadb.gif" class="s-loading mod-search-hide" />
+                <img src="/sjswaimai/Public/picture/loading_min_b0eaadb.gif" class="s-loading mod-search-hide" />
                 </div>
                 <div class="s-search-container1"></div>
                 </div>
@@ -46,10 +43,10 @@
             <nav>
                 <ul class="nav">
                 <li class="nav-item nav-item-active" id="find">
-                <a href="/waimai" class="nav-item-link">外卖</a>
+                <a href="<?php echo U('Index/index');?>" class="nav-item-link">外卖</a>
                 </li>
                 <li class="nav-item " id="order">
-                <a href="/waimai?qt=orderlist&type=wait" class="nav-item-link">我的订单</a>
+                <a href="<?php echo U('User/address');?>" class="nav-item-link">我的订单</a>
                 </li>
                 <li class="nav-item " id="contact">
                 <a href="/waimai?qt=contact" class="nav-item-link">联系我们</a>
@@ -72,7 +69,7 @@
                     </ul>
                 </div>
             </div>
-            <script type="text/javascript" src="/waimaitp/Public/js/d72620c3622f409cbbaf5128c91f3772.js"></script>
+            <script type="text/javascript" src="/sjswaimai/Public/js/d72620c3622f409cbbaf5128c91f3772.js"></script>
         </div>
     </header>
 
@@ -97,120 +94,120 @@
                     <ul class="filter-cates clearfix">
                         <li class="cate-item  item-index-0" data-id="0" data-name="全部" nstat="ready|{da_src:cateBk.0}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-all" style="background-image:url(/waimaitp/Public/images/3acd33ada9ef45d69b564ec874c47e49.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-all" style="background-image:url(/waimaitp/Public/images/3acd33ada9ef45d69b564ec874c47e49.gif);"></div>
+                            <div class="img-show cate-start cate-all" style="background-image:url(/sjswaimai/Public/images/3acd33ada9ef45d69b564ec874c47e49.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-all" style="background-image:url(/sjswaimai/Public/images/3acd33ada9ef45d69b564ec874c47e49.gif);"></div>
                             </div>
                             <div class="item-text">全部</div>
                         </li>
                         <li class="cate-item  item-index-1" data-id="9" data-name="新店特惠" nstat="ready|{da_src:cateBk.9}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-新店特惠" style="background-image:url(/waimaitp/Public/images/fb569c87d72f4c7fbfaae16f4158a257.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-新店特惠" style="background-image:url(/waimaitp/Public/images/fb569c87d72f4c7fbfaae16f4158a257.gif);"></div>
+                            <div class="img-show cate-start cate-新店特惠" style="background-image:url(/sjswaimai/Public/images/fb569c87d72f4c7fbfaae16f4158a257.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-新店特惠" style="background-image:url(/sjswaimai/Public/images/fb569c87d72f4c7fbfaae16f4158a257.gif);"></div>
                             </div>
                             <div class="item-text">新店特惠</div>
                         </li>
                         <li class="cate-item  item-index-2" data-id="16" data-name="品牌连锁" nstat="ready|{da_src:cateBk.16}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-品牌连锁" style="background-image:url(/waimaitp/Public/images/9fce508f948b4cf9a785ccb5aa9024f8.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-品牌连锁" style="background-image:url(/waimaitp/Public/images/9fce508f948b4cf9a785ccb5aa9024f8.gif);"></div>
+                            <div class="img-show cate-start cate-品牌连锁" style="background-image:url(/sjswaimai/Public/images/9fce508f948b4cf9a785ccb5aa9024f8.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-品牌连锁" style="background-image:url(/sjswaimai/Public/images/9fce508f948b4cf9a785ccb5aa9024f8.gif);"></div>
                             </div>
                             <div class="item-text">品牌连锁</div>
                         </li>
                         <li class="cate-item  item-index-3" data-id="17" data-name="小吃快餐" nstat="ready|{da_src:cateBk.17}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-小吃快餐" style="background-image:url(/waimaitp/Public/images/f328c7bb9fee4198a22e78694eae292a.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-小吃快餐" style="background-image:url(/waimaitp/Public/images/f328c7bb9fee4198a22e78694eae292a.gif);"></div>
+                            <div class="img-show cate-start cate-小吃快餐" style="background-image:url(/sjswaimai/Public/images/f328c7bb9fee4198a22e78694eae292a.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-小吃快餐" style="background-image:url(/sjswaimai/Public/images/f328c7bb9fee4198a22e78694eae292a.gif);"></div>
                             </div>
                             <div class="item-text">小吃快餐</div>
                         </li>
                         <li class="cate-item  item-index-4" data-id="24" data-name="地方菜" nstat="ready|{da_src:cateBk.24}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-地方菜" style="background-image:url(/waimaitp/Public/images/49298b7ec8284017ac2fa9951775edc9.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-地方菜" style="background-image:url(/waimaitp/Public/images/49298b7ec8284017ac2fa9951775edc9.gif);"></div>
+                            <div class="img-show cate-start cate-地方菜" style="background-image:url(/sjswaimai/Public/images/49298b7ec8284017ac2fa9951775edc9.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-地方菜" style="background-image:url(/sjswaimai/Public/images/49298b7ec8284017ac2fa9951775edc9.gif);"></div>
                             </div>
                             <div class="item-text">地方菜</div>
                         </li>
                         <li class="cate-item  item-index-5" data-id="22" data-name="西式快餐" nstat="ready|{da_src:cateBk.22}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-西式快餐" style="background-image:url(/waimaitp/Public/images/80274f83ac9f415dbcf41cba6b5e19ef.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-西式快餐" style="background-image:url(/waimaitp/Public/images/80274f83ac9f415dbcf41cba6b5e19ef.gif);"></div>
+                            <div class="img-show cate-start cate-西式快餐" style="background-image:url(/sjswaimai/Public/images/80274f83ac9f415dbcf41cba6b5e19ef.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-西式快餐" style="background-image:url(/sjswaimai/Public/images/80274f83ac9f415dbcf41cba6b5e19ef.gif);"></div>
                             </div>
                             <div class="item-text">西式快餐</div>
                         </li>
                         <li class="cate-item  item-index-6" data-id="121" data-name="异国风味" nstat="ready|{da_src:cateBk.121}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-异国风味" style="background-image:url(/waimaitp/Public/images/7eedf30a2fa6453cb240dcc747622e6c.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-异国风味" style="background-image:url(/waimaitp/Public/images/7eedf30a2fa6453cb240dcc747622e6c.gif);"></div>
+                            <div class="img-show cate-start cate-异国风味" style="background-image:url(/sjswaimai/Public/images/7eedf30a2fa6453cb240dcc747622e6c.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-异国风味" style="background-image:url(/sjswaimai/Public/images/7eedf30a2fa6453cb240dcc747622e6c.gif);"></div>
                             </div>
                             <div class="item-text">异国风味</div>
                         </li>
                         <li class="cate-item  item-index-7" data-id="68" data-name="中式正餐" nstat="ready|{da_src:cateBk.68}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-中式正餐" style="background-image:url(/waimaitp/Public/images/f349098a8372467aa6a7dad508ab49bb.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-中式正餐" style="background-image:url(/waimaitp/Public/images/f349098a8372467aa6a7dad508ab49bb.gif);"></div>
+                            <div class="img-show cate-start cate-中式正餐" style="background-image:url(/sjswaimai/Public/images/f349098a8372467aa6a7dad508ab49bb.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-中式正餐" style="background-image:url(/sjswaimai/Public/images/f349098a8372467aa6a7dad508ab49bb.gif);"></div>
                             </div>
                             <div class="item-text">中式正餐</div>
                         </li>
                         <li class="cate-item  item-index-8" data-id="23" data-name="烧烤海鲜" nstat="ready|{da_src:cateBk.23}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-烧烤海鲜" style="background-image:url(/waimaitp/Public/images/485a2d7424ed4d2caaf8927c2ba7f109.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-烧烤海鲜" style="background-image:url(/waimaitp/Public/images/485a2d7424ed4d2caaf8927c2ba7f109.gif);"></div>
+                            <div class="img-show cate-start cate-烧烤海鲜" style="background-image:url(/sjswaimai/Public/images/485a2d7424ed4d2caaf8927c2ba7f109.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-烧烤海鲜" style="background-image:url(/sjswaimai/Public/images/485a2d7424ed4d2caaf8927c2ba7f109.gif);"></div>
                             </div>
                             <div class="item-text">烧烤海鲜</div>
                         </li>
                         <li class="cate-item  item-index-9" data-id="104" data-name="甜点饮品" nstat="ready|{da_src:cateBk.104}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-甜点饮品" style="background-image:url(/waimaitp/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-甜点饮品" style="background-image:url(/waimaitp/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
+                            <div class="img-show cate-start cate-甜点饮品" style="background-image:url(/sjswaimai/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-甜点饮品" style="background-image:url(/sjswaimai/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
                             </div>
                             <div class="item-text">甜点饮品</div>
                         </li>
                         <li class="cate-item  item-index-10" data-id="13" data-name="水果生鲜" nstat="ready|{da_src:cateBk.13}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-水果生鲜" style="background-image:url(/waimaitp/Public/images/b80bd65c811f4787a8ae85bb16b23dd5.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-水果生鲜" style="background-image:url(/waimaitp/Public/images/b80bd65c811f4787a8ae85bb16b23dd5.gif);"></div>
+                            <div class="img-show cate-start cate-水果生鲜" style="background-image:url(/sjswaimai/Public/images/b80bd65c811f4787a8ae85bb16b23dd5.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-水果生鲜" style="background-image:url(/sjswaimai/Public/images/b80bd65c811f4787a8ae85bb16b23dd5.gif);"></div>
                             </div>
                             <div class="item-text">水果生鲜</div>
                         </li>
                         <li class="cate-item  item-index-11" data-id="20" data-name="下午茶" nstat="ready|{da_src:cateBk.20}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-下午茶" style="background-image:url(/waimaitp/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-下午茶" style="background-image:url(/waimaitp/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
+                            <div class="img-show cate-start cate-下午茶" style="background-image:url(/sjswaimai/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-下午茶" style="background-image:url(/sjswaimai/Public/images/cada5a492e744b049d3caf23d7b8fa44.gif);"></div>
                             </div>
                             <div class="item-text">下午茶</div>
                         </li>
                         <li class="cate-item  item-index-12" data-id="12" data-name="鲜花蛋糕" nstat="ready|{da_src:cateBk.12}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-鲜花蛋糕" style="background-image:url(/waimaitp/Public/images/a156412d2fd34178ae05ee32c7899530.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-鲜花蛋糕" style="background-image:url(/waimaitp/Public/images/a156412d2fd34178ae05ee32c7899530.gif);"></div>
+                            <div class="img-show cate-start cate-鲜花蛋糕" style="background-image:url(/sjswaimai/Public/images/a156412d2fd34178ae05ee32c7899530.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-鲜花蛋糕" style="background-image:url(/sjswaimai/Public/images/a156412d2fd34178ae05ee32c7899530.gif);"></div>
                             </div>
                             <div class="item-text">鲜花蛋糕</div>
                         </li>
                         <li class="cate-item  item-index-13" data-id="10" data-name="超市购" nstat="ready|{da_src:cateBk.10}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-超市购" style="background-image:url(/waimaitp/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-超市购" style="background-image:url(/waimaitp/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
+                            <div class="img-show cate-start cate-超市购" style="background-image:url(/sjswaimai/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-超市购" style="background-image:url(/sjswaimai/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
                             </div>
                             <div class="item-text">超市购</div>
                         </li>
                         <li class="cate-item  item-index-14" data-id="21" data-name="夜宵" nstat="ready|{da_src:cateBk.21}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-夜宵" style="background-image:url(/waimaitp/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-夜宵" style="background-image:url(/waimaitp/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
+                            <div class="img-show cate-start cate-夜宵" style="background-image:url(/sjswaimai/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-夜宵" style="background-image:url(/sjswaimai/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
                             </div>
                             <div class="item-text">夜宵</div>
                         </li>
                         <li class="cate-item  item-index-15" data-id="25" data-name="送药上门" nstat="ready|{da_src:cateBk.25}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-送药上门" style="background-image:url(/waimaitp/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-送药上门" style="background-image:url(/waimaitp/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);"></div>
+                            <div class="img-show cate-start cate-送药上门" style="background-image:url(/sjswaimai/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-送药上门" style="background-image:url(/sjswaimai/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);"></div>
                             </div>
                             <div class="item-text">送药上门</div>
                         </li>
                         <li class="cate-item  item-index-16" data-id="28" data-name="清真" nstat="ready|{da_src:cateBk.28}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-清真" style="background-image:url(/waimaitp/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-清真" style="background-image:url(/waimaitp/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);"></div>
+                            <div class="img-show cate-start cate-清真" style="background-image:url(/sjswaimai/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);"></div>
+                            <div class="img-show cate-hover cate-hover-清真" style="background-image:url(/sjswaimai/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);"></div>
                             </div>
                             <div class="item-text">清真</div>
                         </li>
@@ -294,7 +291,7 @@
                 <i></i>
                 <span>超时赔付</span>
                 </li>
-                <img class="arrow" src="/waimaitp/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
+                <img class="arrow" src="/sjswaimai/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
                 </ul>
             </div>
         </div>
@@ -382,7 +379,7 @@
             <i></i>
             <span>超时赔付</span>
             </li>
-            <img class="arrow" src="/waimaitp/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
+            <img class="arrow" src="/sjswaimai/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
             </ul>
         </div>
         <div class="filter-search">
@@ -398,7 +395,7 @@
     <div class="list clearfix">
     </div>
     <div class="loading hide">
-    <img src="/waimaitp/Public/picture/load-more_3e34c85.gif" width="32" height="32">
+    <img src="/sjswaimai/Public/picture/load-more_3e34c85.gif" width="32" height="32">
     </div>
     </div>
     </section>
@@ -449,7 +446,7 @@
     </div>
     <div class="footer-items-contact footer-item">
     <h3>
-    <img src="/waimaitp/Public/picture/contact_25be17c.png" alt="图标">
+    <img src="/sjswaimai/Public/picture/contact_25be17c.png" alt="图标">
     客服热线</h3>
     <em>400-011-7777</em>
     <div class="text no-hover">
@@ -460,16 +457,16 @@
     <p class="footer-copy">
     小度生活（北京）科技有限公司，北京小度信息科技有限公司<a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action" target="_blank" style="margin-left:15px;">京ICP备16008577-1号</a>
     <span>合作伙伴&nbsp;:&nbsp;</span>
-    <img src="/waimaitp/Public/picture/nuomi_logo.png" class="footer_nuomi_logo" onclick="javascript:window.location='http://www.nuomi.com/?cid=bdwm';addNStat({da_trd:'waimai',da_src:'nuomilogoBk.click',da_act:'click'});" />
-    <img src="/waimaitp/Public/picture/qianbao_logo.png" class="footer_qianbao_logo" onclick="javascript:window.location='https://www.baifubao.com?from=waimai';addNStat({da_trd:'waimai',da_src:'qianbaologoBk.click',da_act:'click'});" />
+    <img src="/sjswaimai/Public/picture/nuomi_logo.png" class="footer_nuomi_logo" onclick="javascript:window.location='http://www.nuomi.com/?cid=bdwm';addNStat({da_trd:'waimai',da_src:'nuomilogoBk.click',da_act:'click'});" />
+    <img src="/sjswaimai/Public/picture/qianbao_logo.png" class="footer_qianbao_logo" onclick="javascript:window.location='https://www.baifubao.com?from=waimai';addNStat({da_trd:'waimai',da_src:'qianbaologoBk.click',da_act:'click'});" />
     </p>
     </footer>
     <div class="mask"></div>
 </body>
-<script type="text/javascript" src="/waimaitp/Public/js/main_d338062.js"></script>
-<script type="text/javascript" src="/waimaitp/Public/js/lib_fcbc5e7.js"></script>
-<script type="text/javascript" src="/waimaitp/Public/js/landing_cb95d02.js"></script>
-<script type="text/javascript" src="/waimaitp/Public/js/shoplist_03c450c.js"></script>
+<script type="text/javascript" src="/sjswaimai/Public/js/main_d338062.js"></script>
+<script type="text/javascript" src="/sjswaimai/Public/js/lib_fcbc5e7.js"></script>
+<script type="text/javascript" src="/sjswaimai/Public/js/landing_cb95d02.js"></script>
+<script type="text/javascript" src="/sjswaimai/Public/js/shoplist_03c450c.js"></script>
 <script type="text/javascript">
 !function(){ require('waimai:widget/landing/muti/muti.js').init();
 
