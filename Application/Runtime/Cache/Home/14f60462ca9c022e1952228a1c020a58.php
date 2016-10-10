@@ -125,7 +125,7 @@
 </div>
 </div>
 <div class="menu-item">
-<div id="menu-favorite" class="selected">
+<div id="menu-favorite">
 <span class="menu-icon favorite-icon"></span>
 <a href="<?php echo U('User/collect');?>" class="menu-title favorite"><span>收藏夹</span></a>
 </div>
@@ -138,7 +138,7 @@
 </div>
 </div>
 <div class="menu-item">
-<div id="menu-account">
+<div id="menu-account" class="selected">
 <span class="menu-icon account-icon"></span>
 <a href="<?php echo U('User/setting');?>" class="menu-title account"><span>账户设置</span></a>
 </div>

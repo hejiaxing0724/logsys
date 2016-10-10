@@ -6,7 +6,7 @@
 
 <script type="text/javascript" src="__PUBLIC__//uni_armorwidget_wrapper.js"></script>
 
-
+<script type="text/javascript" src="__PUBLIC__/jquery-3.1.0.js"></script>
 
 
 
@@ -18,6 +18,12 @@
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/user/menu_4e4a7c2.css">
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/user/order_23df2f5.css">
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/user/usercenter_1e040d1.css">
+
+<style type="text/css">
+	.usercenter-detail .summary{
+		height: 50px;
+	}
+</style>
 </head>
 <body>
 
@@ -36,13 +42,13 @@
 <div class="splitter"></div>
 <div class="order-menu-body">
 <div class="menu-item">
-<div id="menu-order" class="selected">
+<div id="menu-order" >
 <span class="menu-icon order-icon"></span>
-<a href="" class="menu-title order"><span>我的订单</span></a>
+<a href="{:U('User/order')}" class="menu-title order"><span>我的订单</span></a>
 </div>
 </div>
 <div class="menu-item">
-<div id="menu-address">
+<div id="menu-address" class="selected">
 <span class="menu-icon address-icon"></span>
 <a href="{:U('User/address')}" class="menu-title address"><span>送餐地址</span></a>
 </div>
@@ -50,39 +56,60 @@
 <div class="menu-item">
 <div id="menu-favorite">
 <span class="menu-icon favorite-icon"></span>
-<a href="" class="menu-title favorite"><span>收藏夹</span></a>
+<a href="{:U('User/collect')}" class="menu-title favorite"><span>收藏夹</span></a>
 </div>
 </div>
 
 <div class="menu-item">
 <div id="menu-left">
 <span class="menu-icon left-icon"></span>
-<a href="" class="menu-title left"><span>我的余额</span></a>
+<a href="{:U('User/count')}" class="menu-title left"><span>我的余额</span></a>
 </div>
 </div>
 <div class="menu-item">
 <div id="menu-account">
 <span class="menu-icon account-icon"></span>
-<a href="" class="menu-title account"><span>账户设置</span></a>
+<a href="{:U('User/setting')}" class="menu-title account"><span>账户设置</span></a>
 </div>
 </div>
 </div>
 </div>
 </section>
 
-<section class="usercenter-detail" id="user-order">
+<section class="usercenter-detail" id="usercenter-address">
 <div class="summary">
-<h3 class="summary-header">全部订单</h3>
-<div class="summary-info">
-<a class="ft-blk ft-medium header-selected" href="javascript:void(0);" data-type="list" data-node="summary-anchor">全部订单(0)</a>
-<span>|</span>
-<a class="ft-blk ft-medium" href="javascript:void(0);" data-type="uncommented" data-node="summary-anchor">待评价(0)</a>
+<h3 class="summary-header">送餐地址</h3>
 </div>
-</div>
-<div><a class="cms-charlink" data-node="summary-txtLinkExpand" href="javascript:void(0);"></a></div>
-<div class="order-cards" data-node="order-cards"><div class="no-result">    <div class="no-result-image" style="padding:80px 0 20px;">        <img src="__PUBLIC__/user/noresult_b2672ee.png" alt="无结果" style="display:block;margin:auto;">    </div>    <div class="no-result-notice" style="text-align:center;padding-bottom: 50px;"><div class="order-notice">暂无订单, <a href="http://waimai.baidu.com/" class="ft-red">马上来一份</a></div></div></div></div>
-<div class="pagination"></div>
-<div class="callCenter" data-node="callCenter">
+
+<div class="content">
+	
+<ul class="addr-list" data-node="addrList">
+	
+		<volist name="address" id="vo">
+			<li class="addr-item addr-add"  data-node="addrAdd" >
+				<div class="summary">
+					<h3>{$vo['aname']}<span>|</span>{$vo['telephone']}
+						<eq name="vo.ifdefault" value="1"><span style="color:#999">默认地址</span></eq>
+					</h3>
+					<h4 >{$vo['address']} </h4>		
+
+				</div>
+				<div style="display:none;color:#f6c;">
+			        <a >设为默认地址</a><span>|</span>
+					<a >修改</a>
+					</a><span>|</span>
+					<a >删除</a>
+				</div>
+		</li>	
+
+</volist>
+<li class="addr-item addr-add" data-node="addrAdd" >
+<a id="writeAddress"><center class="summary"><img src="__PUBLIC__/picture/address_add_b66a4e5.png">
+<p>新增送餐地址</p></center>
+
+</a>
+</li>
+</ul>
 </div>
 </section>
 
@@ -113,20 +140,100 @@
 <div class="mask"></div>
 
 
-<script>
-    var Hunter = window.Hunter || {};
-    Hunter.userConfig = Hunter.userConfig || [];
-    Hunter.userConfig.push({ hid: 63163 });
-</script>
-<script type="text/javascript" src="__PUBLIC__/user/main_d338062.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/lib_fcbc5e7.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/landing_cb95d02.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/menu_e669814.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/commonDialog_4f5d8bf.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/completeDialog_cad21c3.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/commentDialog_6ef1148.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/txtLinkExpand_91a8f27.js"></script>
-<script type="text/javascript" src="__PUBLIC__/user/order_d05513d.js"></script>
+<div class="mod-dialog-frame" style="overflow: auto; position: fixed; left: 0px; top: 0px; right: 0px; bottom: 0px; z-index: 1000; display: none; background-color: rgba(0, 0, 0, 0.54902);">
+	<div style="overflow: hidden; position: absolute; width: 560px; height: 400px; top: 137px; left: 305px; background-color: rgb(255, 255, 255);" class="mod-dialog-wrap">
+		<div class="addr-detail new-address-section"> 
+		   <form>        
+		   	<table class="addr-table" border="0">            
+		   		<tbody>
+		   			<tr>                
+		   				<td valign="top">
+		   					<span class="l-label">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</span></td>               
+		   					 <td>                    
+		   					 	<input type="hidden" value="" name="adrr_id">                    
+		   					 	<div class="form-group">                        
+		   					 		<div class="input-control">                            
+		   					 			<input type="text" name="user_name" placeholder="您的姓名" value="" class="placeholder-con">                            
+		   					 			<span style="color:#f6c">*</span>                        </div>                        
+		   					 			<div class="error-msg v-hide">请填写您的姓名，不能超过8个字符</div>                    
+		   					 		</div>                    
+		   					 		<div class="form-group">                       
+		   					 	<div class="input-control">                                                        
+		   					 			<input checked id="male" type="radio" name="sex" value="male" /> 
+		   					 			先生
+										<input type="radio" name="sex" value="female" id=""female/> 女士
+		   					 	</div>                        
+		   					 	<div class="error-msg v-hide">请选择您的性别</div>                    
+		   					 </div>                
+		   					</td>            
+		   				</tr>            
+		   				<tr>                
+		   					<td valign="top"><span class="l-label">电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话</span>
+		   					</td>                
+		   					<td>                    
+		   						<div class="form-group">                        
+		   							<div class="input-control">                            
+		   								<input type="text" name="user_phone" placeholder="11位手机号" value="" class="placeholder-con">                            
+		   								<span style="color:#f6c">*</span>                        
+		   							</div>                        
+		   							<div class="error-msg v-hide">请填写正确的手机号</div>                    
+		   						</div>                
+		   					</td>            
+		   				</tr>            
+		   				<tr>                
+		   					<td valign="top"><span class="l-label">位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;置</span></td>                
+		   					<td>                    
+		   						<div class="form-group">                        
+		   							<div class="input-control poi_address">                            
+		   								<i class="addr-icon-input"></i>                            
+		   								<input type="text" name="sug_address" placeholder="请输入小区、大厦或学校" value="" class="placeholder-con poi_address">                            
+		   								<span style="color:#f6c">*</span>                                                        
+		   								<input type="hidden" name="hide_sug_address" value="-" class="hide_poi_address" poi_id="">                        
+		   							</div>                        
+		   							<div class="error-msg v-hide">请输入地址并在下拉框中进行选择</div>                       
+		   							<div class="s-search-container2 mod-search-hide mod-search-container"></div>                                            
+		   						</div>                
+		   					</td>            
+		   				</tr>            
+		   				<tr>                
+		   					<td valign="top"><span class="l-label">详细地址</span></td>                
+		   					<td>                    
+		   						<div class="form-group">                        
+		   							<div class="input-control">                                                        
+		   								<input type="text" name="detail_address" placeholder="请输入门牌号等详细信息" value="" class="placeholder-con">                        
+		   							</div>                        
+		   							<div class="error-msg v-hide">请输入门牌号等详细信息</div>                    
+		   						</div>                
+		   					</td>            
+		   				</tr>        
+		   			</tbody>
+		   		</table>        
+		   		<div class="form-group form-submit">            
+		   			<input type="button" style="background-color:#f6c"class="saveBtn" data-node="saveBtn" value="保存">                            
+		   			<input type="button" class="escBtn versa" value="取消">                    
+		   		</div>    
+		   	</form>
+		   </div>
+		</div>
+	</div>
+<script type="text/javascript">
+	$('#writeAddress').click(function(){
+		$('.mod-dialog-frame')[0].style.display="block";
+	})
+	$('input[value=取消]').click(function(){
+		$('.mod-dialog-frame')[0].style.display="none";
+	})
+	
 
+			$('.addr-item').mouseover(function(){
+				$(this).children()[1].style.display="block";
+
+			})
+			$('.addr-item').mouseout(function(){
+				$(this).children()[1].style.display="none";
+			})
+
+	
+</script>
 
 </body></html>

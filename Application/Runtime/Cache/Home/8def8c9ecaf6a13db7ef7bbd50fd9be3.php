@@ -113,7 +113,7 @@
 <div class="splitter"></div>
 <div class="order-menu-body">
 <div class="menu-item">
-<div id="menu-order" >
+<div id="menu-order" class="selected">
 <span class="menu-icon order-icon"></span>
 <a href="<?php echo U('User/order');?>" class="menu-title order"><span>我的订单</span></a>
 </div>
@@ -125,7 +125,7 @@
 </div>
 </div>
 <div class="menu-item">
-<div id="menu-favorite" class="selected">
+<div id="menu-favorite">
 <span class="menu-icon favorite-icon"></span>
 <a href="<?php echo U('User/collect');?>" class="menu-title favorite"><span>收藏夹</span></a>
 </div>
