@@ -75,7 +75,6 @@
         </div>
     </header>
 
-
     <div class="tip-section">
         <div class="tip-image"></div>
         <i class="tip-close" data-node="tipClose"></i>
@@ -188,281 +187,288 @@
                         </li>
                         <li class="cate-item  item-index-13" data-id="10" data-name="超市购" nstat="ready|{da_src:cateBk.10}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-超市购" style="background-image:url(/sjswaimai/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-超市购" style="background-image:url(/sjswaimai/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
-                            </div>
+                                <div class="img-show cate-start cate-超市购" style="background-image:url(/sjswaimai/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
+                                <div class="img-show cate-hover cate-hover-超市购" style="background-image:url(/sjswaimai/Public/images/67eb4154c14f42d281e0d4e3b655d1cf.gif);"></div>
+                                </div>
                             <div class="item-text">超市购</div>
                         </li>
                         <li class="cate-item  item-index-14" data-id="21" data-name="夜宵" nstat="ready|{da_src:cateBk.21}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-夜宵" style="background-image:url(/sjswaimai/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-夜宵" style="background-image:url(/sjswaimai/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
-                            </div>
+                                <div class="img-show cate-start cate-夜宵" style="background-image:url(/sjswaimai/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
+                                <div class="img-show cate-hover cate-hover-夜宵" style="background-image:url(/sjswaimai/Public/images/f95c465e16b3490abdbaf651e1bdfd8f.gif);"></div>
+                                </div>
                             <div class="item-text">夜宵</div>
                         </li>
                         <li class="cate-item  item-index-15" data-id="25" data-name="送药上门" nstat="ready|{da_src:cateBk.25}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-送药上门" style="background-image:url(/sjswaimai/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-送药上门" style="background-image:url(/sjswaimai/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);"></div>
-                            </div>
+                                <div class="img-show cate-start cate-送药上门" style="background-image:url(/sjswaimai/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);">
+                                </div>
+                                <div class="img-show cate-hover cate-hover-送药上门" style="background-image:url(/sjswaimai/Public/images/f4bce6105c8248039e13ab223cdd49ad.gif);"></div>
+                                </div>
                             <div class="item-text">送药上门</div>
                         </li>
                         <li class="cate-item  item-index-16" data-id="28" data-name="清真" nstat="ready|{da_src:cateBk.28}">
                             <div class="item-img">
-                            <div class="img-show cate-start cate-清真" style="background-image:url(/sjswaimai/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);"></div>
-                            <div class="img-show cate-hover cate-hover-清真" style="background-image:url(/sjswaimai/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);"></div>
+                                <div class="img-show cate-start cate-清真" style="background-image:url(/sjswaimai/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);">
+                                </div>
+                                <div class="img-show cate-hover cate-hover-清真" style="background-image:url(/sjswaimai/Public/images/4b25f27670a94130a5dae1b44b910f72.gif);">
+                                </div>
                             </div>
                             <div class="item-text">清真</div>
                         </li>
                     </ul>
                 </div>
 
-        <div class="filter-bottom clearfix" id="filter-bottom">
-            <div class="outline-left">
-                <ul class="option-left">
-                    <li>
-                        <span class="sort-item" data-node="" style="padding-right: 10px">默认</span></i><span class="item-interval">|</span>
+                <div class="filter-bottom clearfix" id="filter-bottom">
+                    <div class="outline-left">
+                        <ul class="option-left">
+                            <li>
+                                <span class="sort-item" data-node="" style="padding-right: 10px">默认</span></i><span class="item-interval">|</span>
+                            </li>
+                            <li class="item-left">
+                            <span class="sort-item" data-node="month_sales">销量</span><i class="down"></i><span class="item-interval">|</span></li >
+                            <li>
+                            <span class="sort-item" data-node="distance">餐厅距离</span><i></i><span class="item-interval">|</span></li>
+                            <li>
+                            <span  class="sort-item" data-node="comment">评分</span><i class="down"></i><span class="item-interval">|</span></li>
+                            <li>
+                            <span class="sort-item" data-node="takeout_price">起送价</span><i></i><span class="item-interval last">|</span>
+                            </li>
+                            <li>
+                            <span class="sort-item" data-node="dtime">送餐速度</span><i></i><span class="item-interval">|</span></li>
+                        </ul>
+                    </div>
+                    <div class="filter-outline">
+                        <ul class="filter-option" data-node="filter-cates">
+                        <li class="option-item f-selected" data-msg="资质证照" data-type="certification">
+                        <i></i>
+                        <span>资质证照</span>
+                        </li>
+                        <li class="option-item" data-msg="支持在线支付" data-type="pay">
+                        <i></i>
+                        <span>支持在线支付</span>
+                        </li>
+                        <li class="option-item" data-msg="新用户立减" data-type="xin">
+                        <i></i>
+                        <span>新用户立减</span>
+                        </li>
+                        <li class="option-item" data-msg="立减优惠" data-type="jian">
+                        <i></i>
+                        <span>立减优惠</span>
+                        </li>
+                        <li class="option-item" data-msg="下单返券" data-type="fan">
+                        <i></i>
+                        <span>下单返券</span>
+                        </li>
+                        <li class="option-item" data-msg="预定优惠" data-type="preorder">
+                        <i></i>
+                        <span>预定优惠</span>
+                        </li>
+                        <li class="option-item" data-msg="特价优惠" data-type="te">
+                        <i></i>
+                        <span>特价优惠</span>
+                        </li>
+                        <li class="option-item" data-msg="进店领券" data-type="shop_coupon">
+                        <i></i>
+                        <span>进店领券</span>
+                        </li>
+                        <li class="option-item" data-msg="免配送费" data-type="mian">
+                        <i></i>
+                        <span>免配送费</span>
+                        </li>
+                        <li class="option-item" data-msg="下单满赠" data-type="zeng">
+                        <i></i>
+                        <span>下单满赠</span>
+                        </li>
+                        <li class="option-item" data-msg="支持代金券" data-type="coupon">
+                        <i></i>
+                        <span>支持代金券</span>
+                        </li>
+                        <li class="option-item" data-msg="支持开发票" data-type="invoice">
+                        <i></i>
+                        <span>支持开发票</span>
+                        </li>
+                        <li class="option-item" data-msg="百度专送" data-type="express">
+                        <i></i>
+                        <span>百度专送</span>
+                        </li>
+                        <li class="option-item" data-msg="超时赔付" data-type="overtimepayment">
+                        <i></i>
+                        <span>超时赔付</span>
+                        </li>
+                        <img class="arrow" src="/sjswaimai/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="f_panelfixed" class="filterfixed-section clearfix">
+                <div class="filter-bottom clearfix">
+                <div class="outline-left">
+                    <ul class="option-left">
+                        <li>
+                            <span class="sort-item" data-node="" style="padding-right: 10px">默认</span></i><span class="item-interval">|</span>
+                        </li>
+                        <li class="item-left">
+                            <span class="sort-item" data-node="month_sales">销量</span><i class="down"></i><span class="item-interval">|</span>
+                        </li>
+                        <li>
+                            <span class="sort-item" data-node="distance">餐厅距离</span><i></i><span class="item-interval">|</span></li>
+                        <li>
+                            <span  class="sort-item" data-node="comment">评分</span><i class="down"></i><span class="item-interval">|</span>
+                        </li>
+                        <li>
+                            <span class="sort-item" data-node="takeout_price">起送价</span><i></i><span class="item-interval last">|</span>
+                        </li>
+                        <li>
+                            <span class="sort-item" data-node="dtime">送餐速度</span><i></i><span class="item-interval">|</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="filter-outline">
+                    <ul class="filter-option" data-node="filter-cates">
+                    <li class="option-item f-selected" data-msg="资质证照" data-type="certification">
+                    <i></i>
+                    <span>资质证照</span>
                     </li>
-                    <li class="item-left">
-                    <span class="sort-item" data-node="month_sales">销量</span><i class="down"></i><span class="item-interval">|</span></li >
-                    <li>
-                    <span class="sort-item" data-node="distance">餐厅距离</span><i></i><span class="item-interval">|</span></li>
-                    <li>
-                    <span  class="sort-item" data-node="comment">评分</span><i class="down"></i><span class="item-interval">|</span></li>
-                    <li>
-                    <span class="sort-item" data-node="takeout_price">起送价</span><i></i><span class="item-interval last">|</span>
+                    <li class="option-item" data-msg="支持在线支付" data-type="pay">
+                    <i></i>
+                    <span>支持在线支付</span>
                     </li>
-                    <li>
-                    <span class="sort-item" data-node="dtime">送餐速度</span><i></i><span class="item-interval">|</span></li>
-                </ul>
+                    <li class="option-item" data-msg="新用户立减" data-type="xin">
+                    <i></i>
+                    <span>新用户立减</span>
+                    </li>
+                    <li class="option-item" data-msg="立减优惠" data-type="jian">
+                    <i></i>
+                    <span>立减优惠</span>
+                    </li>
+                    <li class="option-item" data-msg="下单返券" data-type="fan">
+                    <i></i>
+                    <span>下单返券</span>
+                    </li>
+                    <li class="option-item" data-msg="预定优惠" data-type="preorder">
+                    <i></i>
+                    <span>预定优惠</span>
+                    </li>
+                    <li class="option-item" data-msg="特价优惠" data-type="te">
+                    <i></i>
+                    <span>特价优惠</span>
+                    </li>
+                    <li class="option-item" data-msg="进店领券" data-type="shop_coupon">
+                    <i></i>
+                    <span>进店领券</span>
+                    </li>
+                    <li class="option-item" data-msg="免配送费" data-type="mian">
+                    <i></i>
+                    <span>免配送费</span>
+                    </li>
+                    <li class="option-item" data-msg="下单满赠" data-type="zeng">
+                    <i></i>
+                    <span>下单满赠</span>
+                    </li>
+                    <li class="option-item" data-msg="支持代金券" data-type="coupon">
+                    <i></i>
+                    <span>支持代金券</span>
+                    </li>
+                    <li class="option-item" data-msg="支持开发票" data-type="invoice">
+                    <i></i>
+                    <span>支持开发票</span>
+                    </li>
+                    <li class="option-item" data-msg="百度专送" data-type="express">
+                    <i></i>
+                    <span>百度专送</span>
+                    </li>
+                    <li class="option-item" data-msg="超时赔付" data-type="overtimepayment">
+                    <i></i>
+                    <span>超时赔付</span>
+                    </li>
+                    <img class="arrow" src="/sjswaimai/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
+                    </ul>
+                </div>
+                <div class="filter-search">
+                <input type="text" id="f-input" class="f-input placeholder-con" placeholder="搜索商户或商品" value="">
+                <a href="/waimai/shoplist/c63ab3051c9a6892" id="f-close-btn" title="重新搜索" class="f-close-btn hide">×</a>
+                <button id="f-search" class="f-search"></button>
+                <div class="f-search-list"></div>
+                </div>
+                </div>
+            </section>
+            <section class="shop-list" id="shop-list">
+                <div class="list-wrap">
+                    <div class="list clearfix" style="color:red">
+                        内容部分
+                    </div>
+                    <div class="loading hide">
+                        <img src="/sjswaimai/Public/picture/load-more_3e34c85.gif" width="32" height="32">
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="backtop-section" id="backtop-section">
+                <div class="appdown" data-node="appdown">
+                    <a id="backTop" class="back-top-action v-hide" href="javascript:;"></a>
+                    <i data-node="appdown-img" class="appdown-img"  usemap="#planetmap" style="display:block;"></i>
+                    <a id="feedback" class="feedback" href="javascript:;"></a>
+                    <map name="planetmap" id="planetmap">
+                        <area shape="rect" coords="88,35,100,45"  id="appdownClose" href="javascript:;" />
+                    </map>
+                </div>
             </div>
-            <div class="filter-outline">
-                <ul class="filter-option" data-node="filter-cates">
-                <li class="option-item f-selected" data-msg="资质证照" data-type="certification">
-                <i></i>
-                <span>资质证照</span>
-                </li>
-                <li class="option-item" data-msg="支持在线支付" data-type="pay">
-                <i></i>
-                <span>支持在线支付</span>
-                </li>
-                <li class="option-item" data-msg="新用户立减" data-type="xin">
-                <i></i>
-                <span>新用户立减</span>
-                </li>
-                <li class="option-item" data-msg="立减优惠" data-type="jian">
-                <i></i>
-                <span>立减优惠</span>
-                </li>
-                <li class="option-item" data-msg="下单返券" data-type="fan">
-                <i></i>
-                <span>下单返券</span>
-                </li>
-                <li class="option-item" data-msg="预定优惠" data-type="preorder">
-                <i></i>
-                <span>预定优惠</span>
-                </li>
-                <li class="option-item" data-msg="特价优惠" data-type="te">
-                <i></i>
-                <span>特价优惠</span>
-                </li>
-                <li class="option-item" data-msg="进店领券" data-type="shop_coupon">
-                <i></i>
-                <span>进店领券</span>
-                </li>
-                <li class="option-item" data-msg="免配送费" data-type="mian">
-                <i></i>
-                <span>免配送费</span>
-                </li>
-                <li class="option-item" data-msg="下单满赠" data-type="zeng">
-                <i></i>
-                <span>下单满赠</span>
-                </li>
-                <li class="option-item" data-msg="支持代金券" data-type="coupon">
-                <i></i>
-                <span>支持代金券</span>
-                </li>
-                <li class="option-item" data-msg="支持开发票" data-type="invoice">
-                <i></i>
-                <span>支持开发票</span>
-                </li>
-                <li class="option-item" data-msg="百度专送" data-type="express">
-                <i></i>
-                <span>百度专送</span>
-                </li>
-                <li class="option-item" data-msg="超时赔付" data-type="overtimepayment">
-                <i></i>
-                <span>超时赔付</span>
-                </li>
-                <img class="arrow" src="/sjswaimai/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
-                </ul>
-            </div>
         </div>
-    </section>
+        <input type="hidden" id="bdstoken" name="bdstoken" value="">
+        <input type="hidden" id="bindstoken" name="bindstoken" value="">
+    </div>
 
-
-    <section id="f_panelfixed" class="filterfixed-section clearfix">
-        <div class="filter-bottom clearfix">
-        <div class="outline-left">
-            <ul class="option-left">
-                <li>
-                    <span class="sort-item" data-node="" style="padding-right: 10px">默认</span></i><span class="item-interval">|</span>
-                </li>
-                <li class="item-left">
-                    <span class="sort-item" data-node="month_sales">销量</span><i class="down"></i><span class="item-interval">|</span>
-                </li>
-                <li>
-                    <span class="sort-item" data-node="distance">餐厅距离</span><i></i><span class="item-interval">|</span></li>
-                <li>
-                    <span  class="sort-item" data-node="comment">评分</span><i class="down"></i><span class="item-interval">|</span>
-                </li>
-                <li>
-                    <span class="sort-item" data-node="takeout_price">起送价</span><i></i><span class="item-interval last">|</span>
-                </li>
-                <li>
-                    <span class="sort-item" data-node="dtime">送餐速度</span><i></i><span class="item-interval">|</span>
-                </li>
-            </ul>
-        </div>
-        <div class="filter-outline">
-            <ul class="filter-option" data-node="filter-cates">
-            <li class="option-item f-selected" data-msg="资质证照" data-type="certification">
-            <i></i>
-            <span>资质证照</span>
-            </li>
-            <li class="option-item" data-msg="支持在线支付" data-type="pay">
-            <i></i>
-            <span>支持在线支付</span>
-            </li>
-            <li class="option-item" data-msg="新用户立减" data-type="xin">
-            <i></i>
-            <span>新用户立减</span>
-            </li>
-            <li class="option-item" data-msg="立减优惠" data-type="jian">
-            <i></i>
-            <span>立减优惠</span>
-            </li>
-            <li class="option-item" data-msg="下单返券" data-type="fan">
-            <i></i>
-            <span>下单返券</span>
-            </li>
-            <li class="option-item" data-msg="预定优惠" data-type="preorder">
-            <i></i>
-            <span>预定优惠</span>
-            </li>
-            <li class="option-item" data-msg="特价优惠" data-type="te">
-            <i></i>
-            <span>特价优惠</span>
-            </li>
-            <li class="option-item" data-msg="进店领券" data-type="shop_coupon">
-            <i></i>
-            <span>进店领券</span>
-            </li>
-            <li class="option-item" data-msg="免配送费" data-type="mian">
-            <i></i>
-            <span>免配送费</span>
-            </li>
-            <li class="option-item" data-msg="下单满赠" data-type="zeng">
-            <i></i>
-            <span>下单满赠</span>
-            </li>
-            <li class="option-item" data-msg="支持代金券" data-type="coupon">
-            <i></i>
-            <span>支持代金券</span>
-            </li>
-            <li class="option-item" data-msg="支持开发票" data-type="invoice">
-            <i></i>
-            <span>支持开发票</span>
-            </li>
-            <li class="option-item" data-msg="百度专送" data-type="express">
-            <i></i>
-            <span>百度专送</span>
-            </li>
-            <li class="option-item" data-msg="超时赔付" data-type="overtimepayment">
-            <i></i>
-            <span>超时赔付</span>
-            </li>
-            <img class="arrow" src="/sjswaimai/Public/picture/arrow_eec16bc.png" width="10px" height="10px">
-            </ul>
-        </div>
-        <div class="filter-search">
-        <input type="text" id="f-input" class="f-input placeholder-con" placeholder="搜索商户或商品" value="">
-        <a href="/waimai/shoplist/c63ab3051c9a6892" id="f-close-btn" title="重新搜索" class="f-close-btn hide">×</a>
-        <button id="f-search" class="f-search"></button>
-        <div class="f-search-list"></div>
-        </div>
-        </div>
-    </section>
-    <section class="shop-list" id="shop-list">
-    <div class="list-wrap">
-    <div class="list clearfix">
-    </div>
-    <div class="loading hide">
-    <img src="/sjswaimai/Public/picture/load-more_3e34c85.gif" width="32" height="32">
-    </div>
-    </div>
-    </section>
-
-
-    <div class="backtop-section" id="backtop-section">
-    <div class="appdown" data-node="appdown">
-    <a id="backTop" class="back-top-action v-hide" href="javascript:;"></a>
-    <i data-node="appdown-img" class="appdown-img"  usemap="#planetmap" style="display:block;"></i>
-    <a id="feedback" class="feedback" href="javascript:;"></a>
-    <map name="planetmap" id="planetmap">
-    <area shape="rect" coords="88,35,100,45"  id="appdownClose" href="javascript:;" />
-    </map>
-    </div>
-    </div>
-    </div>
-    <input type="hidden" id="bdstoken" name="bdstoken" value="">
-    <input type="hidden" id="bindstoken" name="bindstoken" value="">
-    </div>
     <footer id="baiducopy">
-    <div class="footer-items">
-    <div class="footer-items-snippet footer-item help">
-    <h3>帮助</h3>
-    <div class="text">
-    <a href="https://waimai.baidu.com/waimai?qt=contact">建议与反馈</a>
-    <a href="https://waimai.baidu.com/waimai?qt=helpusage">使用帮助</a>
-    <a href="https://waimai.baidu.com/waimai?qt=helpqa">常见问题</a>
-    <a href="https://waimai.baidu.com/waimai?qt=agreement">用户协议</a>
-    <a href="/waimai?qt=agreement&right=1">权利声明</a>
-    </div>
-    </div>
-    <div class="footer-items-snippet footer-item followus">
-    <h3>关注我们</h3>
-    <div class="text">
-    <a href="http://tieba.baidu.com/f?kw=%B0%D9%B6%C8%CD%E2%C2%F4&fr=ala0" target="_blank">官方论坛</a>
-    <a href="http://weibo.com/waimai" target="_blank">新浪微博</a>
-    <a href="https://waimai.baidu.com/waimai?qt=about" target="_blank">关于我们</a>
-    <a data-node="wechat" href="javascript:void(0);" class="wechat">微信公众号</a>
-    <a href="/waimai?qt=agreement&right=2" target="_blank">平台制度</a>
-    </div>
-    </div>
-    <div class="footer-items-snippet footer-item">
-    <h3>商务合作</h3>
-    <div class="text">
-    <a href="http://waimai.baidu.com/biz" target="_blank">商户入驻</a>
-    <a href="https://waimai.baidu.com/waimai?qt=agent" target="_blank">代理商合作</a>
-    </div>
-    </div>
-    <div class="footer-items-contact footer-item">
-    <h3>
-    <img src="/sjswaimai/Public/picture/contact_25be17c.png" alt="图标">
-    客服热线</h3>
-    <em>400-011-7777</em>
-    <div class="text no-hover">
-    <span>周一至周日9:00-22:00</span>
-    </div>
-    </div>
-    </div>
-    <p class="footer-copy">
-    小度生活（北京）科技有限公司，北京小度信息科技有限公司<a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action" target="_blank" style="margin-left:15px;">京ICP备16008577-1号</a>
-    <span>合作伙伴&nbsp;:&nbsp;</span>
-    <img src="/sjswaimai/Public/picture/nuomi_logo.png" class="footer_nuomi_logo" onclick="javascript:window.location='http://www.nuomi.com/?cid=bdwm';addNStat({da_trd:'waimai',da_src:'nuomilogoBk.click',da_act:'click'});" />
-    <img src="/sjswaimai/Public/picture/qianbao_logo.png" class="footer_qianbao_logo" onclick="javascript:window.location='https://www.baifubao.com?from=waimai';addNStat({da_trd:'waimai',da_src:'qianbaologoBk.click',da_act:'click'});" />
-    </p>
+        <div class="footer-items">
+            <div class="footer-items-snippet footer-item help">
+                <h3>帮助</h3>
+                <div class="text">
+                    <a href="https://waimai.baidu.com/waimai?qt=contact">建议与反馈</a>
+                    <a href="https://waimai.baidu.com/waimai?qt=helpusage">使用帮助</a>
+                    <a href="https://waimai.baidu.com/waimai?qt=helpqa">常见问题</a>
+                    <a href="https://waimai.baidu.com/waimai?qt=agreement">用户协议</a>
+                    <a href="/waimai?qt=agreement&right=1">权利声明</a>
+                </div>
+            </div>
+            <div class="footer-items-snippet footer-item followus">
+                <h3>关注我们</h3>
+                <div class="text">
+                    <a href="http://tieba.baidu.com/f?kw=%B0%D9%B6%C8%CD%E2%C2%F4&fr=ala0" target="_blank">官方论坛</a>
+                    <a href="http://weibo.com/waimai" target="_blank">新浪微博</a>
+                    <a href="https://waimai.baidu.com/waimai?qt=about" target="_blank">关于我们</a>
+                    <a data-node="wechat" href="javascript:void(0);" class="wechat">微信公众号</a>
+                    <a href="/waimai?qt=agreement&right=2" target="_blank">平台制度</a>
+                </div>
+            </div>
+            <div class="footer-items-snippet footer-item">
+                <h3>商务合作</h3>
+                <div class="text">
+                    <a href="http://waimai.baidu.com/biz" target="_blank">商户入驻</a>
+                    <a href="https://waimai.baidu.com/waimai?qt=agent" target="_blank">代理商合作</a>
+                </div>
+            </div>
+            <div class="footer-items-contact footer-item">
+                <h3>
+                    <img src="/sjswaimai/Public/picture/contact_25be17c.png" alt="图标">客服热线
+                </h3>
+                <em>400-011-7777</em>
+                <div class="text no-hover">
+                 <span>周一至周日9:00-22:00</span>
+                </div>
+            </div>
+        </div>
+        <p class="footer-copy">
+            小度生活（北京）科技有限公司，北京小度信息科技有限公司
+            <a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action" target="_blank" style="margin-left:15px;">京ICP备16008577-1号
+            </a>
+            <span>合作伙伴&nbsp;:&nbsp;</span>
+            <img src="/sjswaimai/Public/picture/nuomi_logo.png" class="footer_nuomi_logo" onclick="javascript:window.location='http://www.nuomi.com/?cid=bdwm';addNStat({da_trd:'waimai',da_src:'nuomilogoBk.click',da_act:'click'});" />
+            <img src="/sjswaimai/Public/picture/qianbao_logo.png" class="footer_qianbao_logo" onclick="javascript:window.location='https://www.baifubao.com?from=waimai';addNStat({da_trd:'waimai',da_src:'qianbaologoBk.click',da_act:'click'});" />
+        </p>
     </footer>
     <div class="mask"></div>
 </body>
